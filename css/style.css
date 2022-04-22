@@ -217,13 +217,21 @@
     display: flex;
     margin-top: 38px;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 
-.make__work-content p{
-    width: 789px;
+.make__work-content h1{
+    text-align: center;
+}
+
+.make__work-content-title{
     text-align: center;
     margin-top: 23px;
-    margin-bottom: 80px;
+}
+
+.make__work-content-text{
+    color: #E4E4E4;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: start;
 }
